@@ -11,10 +11,12 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
     <title>Trillo</title>
   </head>
+
   <body>
     <div class="container">
       <header class="header">
         <img src="img/logo.png" alt="Trillo logo" class="logo" />
+
         <form action="#" class="search">
           <input
             type="text"
@@ -27,6 +29,7 @@
             </svg>
           </button>
         </form>
+
         <nav class="user-nav">
           <div class="user-nav__icon-box">
             <svg class="user-nav__icon">
@@ -50,6 +53,7 @@
           </div>
         </nav>
       </header>
+
       <div class="content">
         <nav class="sidebar">
           <ul class="side-nav">
@@ -86,9 +90,112 @@
               </a>
             </li>
           </ul>
+
           <div class="legal">&copy; 2020 by Dominik. All rights reserved.</div>
         </nav>
-        <main class="hotel-view">Hotel View</main>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img class="gallery__photo" src="img/hotel-1.jpg" alt="Hotel 1" />
+            </figure>
+            <figure class="gallery__item">
+              <img class="gallery__photo" src="img/hotel-2.jpg" alt="Hotel 2" />
+            </figure>
+            <figure class="gallery__item">
+              <img class="gallery__photo" src="img/hotel-3.jpg" alt="Hotel 3" />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <div class="overview__heading">Hilton Hotel</div>
+
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Gdańsk, Polska</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-count">315 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                veniam omnis ea unde voluptatum, ducimus, soluta maxime
+                provident ab, dolor corporis? Ipsam quae, nisi eveniet illum
+                cupiditate beatae! Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Facilis, tenetur.
+              </p>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                veniam omnis ea unde voluptatum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Nam, modi?
+              </p>
+              <ul class="list">
+                <li class="list__item">Close to the beach</li>
+                <li class="list__item">Breakfast Included</li>
+                <li class="list__item">Free airport shuttle</li>
+                <li class="list__item">Free wifi in all rooms</li>
+                <li class="list__item">Air conditioning and heating</li>
+                <li class="list__item">Pets allowed</li>
+                <li class="list__item">We speak all languages</li>
+                <li class="list__item">Perfect for families</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Lucy and 3 other friends recommend this hotel.
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    class="recommend__photo"
+                    src="img/user-3.jpg"
+                    alt="Friend 1"
+                  />
+                  <img
+                    class="recommend__photo"
+                    src="img/user-4.jpg"
+                    alt="Friend 2"
+                  />
+                  <img
+                    class="recommend__photo"
+                    src="img/user-5.jpg"
+                    alt="Friend 3"
+                  />
+                  <img
+                    class="recommend__photo"
+                    src="img/user-6.jpg"
+                    alt="Friend 4"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="user-reviews">User Reviews</div>
+          </div>
+        </main>
       </div>
     </div>
   </body>
