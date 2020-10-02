@@ -264,6 +264,10 @@ body {
     mask-image: url(../img/chevron-thin-right.svg);
     mask-size: cover; }
 
+.recommend {
+  font-size: 1.3rem;
+  color: var(--color-gray-light-3); }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
